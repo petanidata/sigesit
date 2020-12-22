@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>PETA PERSEBARAN PUSKESMAS DI KABUPATEN TASIKMALAYA</title>
+    <title>PETA PERSEBARAN RUMAH SAKIT RUJUKAN COVID-19 DI KABUPATEN TASIKMALAYA</title>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -35,9 +35,9 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="peta-covid.html">Peta Persebaran Masyarakat Terkonfirmasi Covid-19<br>di Kabupaten Tasikmalaya</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Peta Persebaran Puskesmas di Kabupaten Tasikmalaya</a>
+                            <a class="dropdown-item" href="peta-puskesmas.html">Peta Persebaran Puskesmas di Kabupaten Tasikmalaya</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="peta-rs.html">Peta Persebaran Rumah Sakit Rujukan Covid-19<br>di Kabupaten Tasikmalaya</a>
+                            <a class="dropdown-item" href="#">Peta Persebaran Rumah Sakit Rujukan Covid-19<br>di Kabupaten Tasikmalaya</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -55,16 +55,51 @@
 
         <!-- Peta -->
         <section id="peta" style="margin-top: 5vw;">
-            <h2>Peta Persebaran Puskesmas di Kabupaten Tasikmalaya</h2>
-            <hr style="width: 71%; float: left; margin-top: 0vw; border-width: 2px; background-color: #0275d8">
+            <h2>Peta Persebaran Rumah Sakit Rujukan Covid-19<br>di Kabupaten Tasikmalaya</h2>
+            <hr style="width: 62%; float: left; margin-top: 0vw; border-width: 2px; background-color: #0275d8">
 
             <div class="" style="margin-bottom: 10vw;">
-                <img src="images/puskesmas.png" style="width: 85%; margin-bottom: 2.5vw;" class="mx-auto d-block">
+                <img src="images/rs.png" style="width: 85%; margin-bottom: 2.5vw;" class="mx-auto d-block">
                 <p class="mb-5">
-                    Terdapat 40 puskesmas di Kabupaten Tasikmalaya yang tersebar di 39 kecamatan. Pada peta persebaran puskesmas di atas,
-                    terlihat bahwa puskesmas masih belum dapat menjangkau setiap wilayah di Kabupaten Tasikmalaya dengan radius 5 km dari
-                    puskesmasnya.
+                    Hanya terdapat 2 rumah sakit rujukan di Kabupaten Tasikmalaya, yaitu RSUD Singaparna Medika Citrautama dan RSIA Respati
+                    Tasikmalaya. Keduanya terdapat di Kecamatan Singaparna. Sehingga belum dapat menjangkau ke semua wilayah Kabupaten
+                    Tasikmalaya. Terlihat dari radius buffer 10km belum dapat menjangkau wilayah tersebut. Adapun informasi lengkap mengenai
+                    rumah sakit rujukan Covid-19 ini ialah sebagai berikut:
                 </p>
+
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <table class="table table-striped table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Nama</th>
+                                    <th scope="col">Alamat</th>
+                                    <th scope="col">No. Telpon</th>
+                                    <th scope="col">Jumlah tempat tidur</th>
+                                    <th scope="col">Menuju ke sini?</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>RSUD Singaparna Medika Citrautama</td>
+                                    <td>Jl. Raya Rancamaya, Kec. Singaparna, 46412</td>
+                                    <td>(0265) 543456</td>
+                                    <td>174</td>
+                                    <td><a href="https://www.google.com/maps/dir//-7.358709735,108.106102">Link lokasi</a></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>RSIA Respati Tasikmalaya</td>
+                                    <td>Jl. Raya Singaparna No.Km 11, Kec. Singaparna, 46418</td>
+                                    <td>(0265) 549337</td>
+                                    <td>39</td>
+                                    <td><a href="https://www.google.com/maps/dir//-7.33643967,108.1536847">Link lokasi</a></td>
+                                </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- END Peta -->
